@@ -1,0 +1,128 @@
+body {
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  gap: 16px;
+}
+
+.white-background {
+  background-color: white;
+  border: 1px solid grey;
+  padding: 0 40px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  text-align: center;
+  font-size: 48px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.em-pw {
+  background-color: lightgray;
+  border: 1px solid #b3b3b3;
+  border-radius: 2px;
+}
+
+.login-btn {
+  color: white;
+  background-color: #b3d9ff;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  padding: 5px 0px;
+}
+
+.or {
+  text-align: center;
+  color: #b3b3b3;
+}
+
+.fb-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.fb-logo {
+  max-width: 20px;
+}
+
+.fb-text {
+  text-decoration: none;
+  color: #4d4dff;
+}
+.forgot-pw-container {
+  text-align: center;
+}
+.forgot-pw {
+  text-decoration: none;
+  color: #1a1aff;
+}
+.dhaa-wrapper {
+  margin-top: 10px;
+  text-align: center;
+  padding: 6px 0px;
+}
+.sign-up {
+  text-decoration: none;
+  color: #005ce6;
+}
+
+.get-the-app {
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+}
+
+ul > li {
+  list-style: none;
+  margin: 0 10px;
+  color: #b3b3b3;
+}
+
+.left{
+    max-height: 615px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+}
+
+select {
+  margin-right: 10px;
+  color: #b3b3b3;
+  border: transparent;
+  background-color: transparent;
+}
+
+.insta-fb {
+  color: #b3b3b3;
+}
+
+.left-pic{
+    height: 81%;
+}
+
+.install{
+    display: flex;
+    gap: 100px;
+}
+.install-pic {
+    height: 50px;
+}
