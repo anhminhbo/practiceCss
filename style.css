@@ -6,6 +6,8 @@ body {
 
 main {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 16px;
 }
 
@@ -121,7 +123,7 @@ select {
 
 .install{
     display: flex;
-    gap: 100px;
+    justify-content:space-evenly;
 }
 .install-pic {
     height: 50px;
